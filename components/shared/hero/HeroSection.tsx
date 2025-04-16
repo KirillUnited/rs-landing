@@ -74,7 +74,7 @@ export default function HeroSection() {
         </div>
         <div className="relative z-10">
           <div className="container py-24 sm:py-32">
-            <div className="max-w-3xl">
+            <article className="max-w-3xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 text-pretty">
                 Восстановление кожаных сидений для вашего автомобиля.
                 <span className="block mt-2 bg-gradient-to-r from-[#ceff06] to-[#49f866] bg-clip-text text-transparent">
@@ -88,7 +88,7 @@ export default function HeroSection() {
                 только качественные материалы и современные технологии.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12">
+              <footer className="flex flex-col sm:flex-row gap-4 mt-12">
                 <Button
                   as={Link}
                   href="#"
@@ -98,7 +98,7 @@ export default function HeroSection() {
                   <CalendarIcon size={18} />
                   <span>Записаться</span>
                 </Button>
-                
+
                 <Button
                   as={Link}
                   href="#"
@@ -107,8 +107,8 @@ export default function HeroSection() {
                 >
                   Узнать больше <span aria-hidden="true">→</span>
                 </Button>
-              </div>
-            </div>
+              </footer>
+            </article>
           </div>
         </div>
 
