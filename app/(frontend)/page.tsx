@@ -3,7 +3,7 @@
 // import { sanityFetch } from '@/sanity/lib/live';
 import { HeroSection } from '@/components/shared/hero';
 import { BrandSection } from '@/components/shared/brand';
-import { ServiceSection } from '@/components/shared/service';
+import { ServiceSection } from '@/components/shared/service/ServiceSection';
 
 export default async function Home() {
   // const { data: page } = await sanityFetch({

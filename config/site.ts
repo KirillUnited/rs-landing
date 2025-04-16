@@ -9,6 +9,10 @@ export const siteConfig = {
       href: "/",
     },
     {
+      label: "Услуги",
+      href: "/#services",
+    },
+    {
       label: "Цены",
       href: "/#pricing",
     },
@@ -17,49 +21,36 @@ export const siteConfig = {
       href: "/#about",
     },
     {
-      label: "Блог",
-      href: "/#blog",
+      label: "Контакты",
+      href: "/#contact",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Главная",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Услуги",
+      href: "/#services",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Цены",
+      href: "/#pricing",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "О нас",
+      href: "/#about",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "Контакты",
+      href: "/#contact",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    instagram: "https://instagram.com/rs_pro",
+    facebook: "https://facebook.com/rs_pro",
+    twitter: "https://twitter.com/rs_pro",
+    telegram: "https://t.me/rs_pro",
   },
 };
