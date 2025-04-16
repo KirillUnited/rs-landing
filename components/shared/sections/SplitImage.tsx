@@ -34,7 +34,7 @@ export function SplitImage({ title, image, orientation }: SplitImageProps) {
                         </h2>
                     ) : null}
                     <p className="text-foreground-600 text-pretty">
-                        В центре My Way мы предлагаем прозрачные и честные цены на лазерную эпиляцию. Сделайте первый шаг к <strong>идеальной коже</strong> уже сегодня!
+                        В центре RS мы предлагаем прозрачные и честные цены на лазерную эпиляцию. Сделайте первый шаг к <strong>идеальной коже</strong> уже сегодня!
                     </p>
                     <footer className="mt-10 flex items-center gap-x-6">
                         <Button

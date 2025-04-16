@@ -28,10 +28,10 @@ export const Navbar = () => {
             <Image
               alt="Logo"
               height={32}
-              src="/images/logo.png"
+              src="/images/logo.jpg"
               width={32}
             />
-            <p className="font-bold text-inherit">MY WAY</p>
+            <p className="font-bold text-inherit">RS</p>
           </NextLink>
         </NavbarBrand>
 

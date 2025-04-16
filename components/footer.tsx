@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Logo Section */}
                     <div className="flex flex-col items-start">
-                        <Image src="/images/logo.png" alt="My Way" width={120} height={50} />
+                        <Image src="/images/logo.jpg" alt="RS" width={120} height={50} />
                     </div>
                     <Socials />
                 </div>
@@ -68,7 +68,7 @@ export default function Footer() {
             <section className=' bg-black text-white'>
                 <div className="container py-6">
                     <div className="text-center text-sm ">
-                        <p>© Copyright {new Date().getFullYear()}, My Way</p>
+                        <p>© Copyright {new Date().getFullYear()}, RS</p>
                     </div>
                 </div>
             </section>

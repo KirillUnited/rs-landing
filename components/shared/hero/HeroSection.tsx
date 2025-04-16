@@ -29,7 +29,7 @@ export default function HeroSection({ slogan, title, text, image }: HeroProps) {
           <div className="container py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative text-center px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-                {/* <span className='font-bold'>MY WAY</span> — первый центр лазерной эпиляции с технологией Ice-Cool и системой 3D-сканирования кожи */}
+                {/* <span className='font-bold'>RS</span> — первый центр лазерной эпиляции с технологией Ice-Cool и системой 3D-сканирования кожи */}
                 {slogan ? slogan : null}
               </div>
             </div>
