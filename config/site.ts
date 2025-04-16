@@ -22,7 +22,7 @@ export const siteConfig = {
     },
     {
       label: "Контакты",
-      href: "/#contact",
+      href: "/#contacts",
     },
   ],
   navMenuItems: [
@@ -44,7 +44,7 @@ export const siteConfig = {
     },
     {
       label: "Контакты",
-      href: "/#contact",
+      href: "/#contacts",
     },
   ],
   links: {

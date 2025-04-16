@@ -6,6 +6,7 @@ import { BrandSection } from '@/components/shared/brand';
 import { ServiceSection } from '@/components/shared/service/ServiceSection';
 import { AboutSection } from '@/components/shared/sections/SplitImage';
 import { FeaturesSection } from '@/components/shared/feature';
+import { ContactUsSection } from '@/components/shared/contacts';
 
 export default async function Home() {
   // const { data: page } = await sanityFetch({
@@ -22,6 +23,7 @@ export default async function Home() {
       <ServiceSection />
       <AboutSection />
       <FeaturesSection />
+      <ContactUsSection />
     </div>
   )
 }

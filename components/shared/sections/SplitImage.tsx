@@ -63,7 +63,7 @@ import Link from "next/link";
 
 export function AboutSection() {
     return (
-        <section className="relative">
+        <section id="about" className="relative">
             <div className="container flex flex-col md:flex-row items-center gap-10 py-16">
                 <div className="md:w-1/2 w-full flex justify-center ">
                     <Image
