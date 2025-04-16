@@ -16,12 +16,12 @@ export default function BrandSection() {
           <h2 className="text-3xl font-semibold text-foreground-900 sm:text-4xl">
             Работаем со всеми премиальными брендами
           </h2>
-          <p className="mt-4 text-xl text-foreground-600">
+          <p className="mt-4 text-foreground-600">
             Профессиональное обслуживание автомобилей премиум-класса
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {brands.map((brand) => (
             <Card
               key={brand.name}

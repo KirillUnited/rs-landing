@@ -1,8 +1,9 @@
-import { HOME_PAGE_QUERY } from '@/sanity/lib/queries';
-import { PageBuilder } from '@/components/PageBuilder';
-import { sanityFetch } from '@/sanity/lib/live';
+// import { HOME_PAGE_QUERY } from '@/sanity/lib/queries';
+// import { PageBuilder } from '@/components/PageBuilder';
+// import { sanityFetch } from '@/sanity/lib/live';
 import { HeroSection } from '@/components/shared/hero';
 import { BrandSection } from '@/components/shared/brand';
+import { ServiceSection } from '@/components/shared/service';
 
 export default async function Home() {
   // const { data: page } = await sanityFetch({
@@ -16,6 +17,7 @@ export default async function Home() {
     <div className='relative'>
       <HeroSection />
       <BrandSection />
+      <ServiceSection />
     </div>
   )
 }

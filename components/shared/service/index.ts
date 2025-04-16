@@ -1,4 +1,4 @@
-import ServiceSection from "./ServiceSection";
+import {ServiceSection, ServiceCard} from "./ServiceSection";
 
 export {
     ServiceSection
