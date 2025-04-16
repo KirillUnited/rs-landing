@@ -5,7 +5,7 @@ import Socials from './ui/socials/Socials'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className='border-t border-gray-800'>
             <div className="container py-16">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Logo Section */}

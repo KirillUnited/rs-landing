@@ -57,12 +57,13 @@
 //     );
 // }
 import { Button } from "@heroui/button";
+import { CalendarIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export function AboutSection() {
     return (
-        <section className="relative bg-content2">
+        <section className="relative">
             <div className="container flex flex-col md:flex-row items-center gap-10 py-16">
                 <div className="md:w-1/2 w-full flex justify-center ">
                     <Image
@@ -74,19 +75,20 @@ export function AboutSection() {
                         priority
                     />
                 </div>
-                <article className="md:w-1/2 w-full flex flex-col gap-6">
-                    <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold self-start">
+                <article className="md:w-1/2 w-full flex flex-col gap-4">
+                    <span className="inline-block px-4 py-1 border-1 border-primary rounded-full text-xs font-semibold self-start">
                         О нас
                     </span>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground-900">
                         RS Service - Ваши надежные эксперты 
                     </h2>
-                    <p className="text-foreground-700 text-lg">
+                    <p className="text-foreground-700">
                         В автосалоне RS мы предоставляем первоклассные услуги по ремонту и детейлингу для автомобилей всех марок и моделей. Наши сертифицированные техники используют новейшие технологии, чтобы ваш автомобиль выглядел и работал наилучшим образом. Оцените прозрачное ценообразование, честные консультации и клиентоориентированный подход.
                     </p>
                     <footer className="mt-6 flex flex-col sm:flex-row gap-4">
                         <Button color="primary" className="uppercase font-semibold">
-                            Записаться на приём
+                            <CalendarIcon size={18} />
+                            <span>Записаться на приём</span>
                         </Button>
                         <Button className="uppercase font-semibold">
                             Наши услуги <span aria-hidden="true">→</span>

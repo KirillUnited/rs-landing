@@ -1,6 +1,7 @@
 import { urlFor } from '@/sanity/lib/image';
 import { PAGE_QUERYResult } from '@/sanity/types';
 import { Button } from '@heroui/button'
+import { CalendarIcon } from 'lucide-react';
 import { PortableText } from 'next-sanity';
 import Image from 'next/image'
 import Link from 'next/link'
@@ -94,7 +95,7 @@ export default function HeroSection() {
                   variant="ghost"
                   className='uppercase font-semibold'
                 >
-                  Узнать больше
+                  Узнать больше <span aria-hidden="true">→</span>
                 </Button>
 
                 <Button
@@ -103,7 +104,8 @@ export default function HeroSection() {
                   color='primary'
                   className='uppercase font-semibold'
                 >
-                  Записаться
+                  <CalendarIcon size={18} />
+                  <span>Записаться</span>
                 </Button>
               </div>
             </div>
