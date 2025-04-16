@@ -92,7 +92,7 @@ export default function HeroSection() {
                 <Button
                   as={Link}
                   href="#"
-                  variant="ghost"
+                  
                   className='uppercase font-semibold'
                 >
                   Узнать больше <span aria-hidden="true">→</span>
