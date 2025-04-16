@@ -1,5 +1,5 @@
-import { SplitImage } from "./SplitImage";
+import { AboutSection } from "./SplitImage";
 
 export {
-    SplitImage
+    AboutSection
 }
