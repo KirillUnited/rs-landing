@@ -118,7 +118,7 @@ export default function PricingSection() {
                   aria-describedby={tier.id}
                   color={tier.mostPopular
                     ? 'primary'
-                    : 'secondary'}
+                    : 'default'}
                   className='uppercase font-semibold'
                   radius='none'
                 >
