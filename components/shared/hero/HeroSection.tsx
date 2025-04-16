@@ -90,7 +90,7 @@ export default function HeroSection() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12">
                 <Button
                   as={Link}
-                  href="/learn-more"
+                  href="#"
                   variant="ghost"
                   className='uppercase font-semibold'
                 >
@@ -99,7 +99,7 @@ export default function HeroSection() {
 
                 <Button
                   as={Link}
-                  href="/appointment"
+                  href="#"
                   color='primary'
                   className='uppercase font-semibold'
                 >
