@@ -12,9 +12,12 @@ const brands = [
 
 export default function BrandSection() {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-content2">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 flex flex-col gap-4">
+          <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold self-center">
+            Наши клиенты
+          </span>
           <h2 className="text-3xl font-semibold text-foreground-900 sm:text-4xl">
             Работаем со всеми премиальными брендами
           </h2>
@@ -39,12 +42,6 @@ export default function BrandSection() {
               </CardBody>
             </Card>
           ))}
-        </div>
-
-        <div className="mt-16 text-center">
-          <p className="text-gray-600">
-            И многие другие премиальные автомобильные бренды
-          </p>
         </div>
       </div>
     </section>

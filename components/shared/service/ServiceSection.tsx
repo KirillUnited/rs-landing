@@ -61,10 +61,13 @@ export const ServiceSection = () => {
   ]
 
   return (
-    <section id='services' className='bg-content2 dark:bg-background'>
+    <section id='services' className=''>
       <div className="container py-24">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-foreground-900 mb-4">Наши Услуги</h2>
+        <div className="text-center mb-12 flex flex-col gap-4">
+          <span className="inline-block px-4 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold self-center">
+            Наши Услуги
+          </span>
+          <h2 className="text-4xl font-bold text-foreground-900">Профессиональный Уход за Вашим Автомобилем</h2>
           <p className="text-foreground-600 max-w-2xl mx-auto">
             Испытайте новейшие технологии в обслуживании автомобилей с нашим спектром специализированных услуг
           </p>
