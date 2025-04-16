@@ -92,20 +92,20 @@ export default function HeroSection() {
                 <Button
                   as={Link}
                   href="#"
-                  
-                  className='uppercase font-semibold'
-                >
-                  Узнать больше <span aria-hidden="true">→</span>
-                </Button>
-
-                <Button
-                  as={Link}
-                  href="#"
                   color='primary'
                   className='uppercase font-semibold'
                 >
                   <CalendarIcon size={18} />
                   <span>Записаться</span>
+                </Button>
+                
+                <Button
+                  as={Link}
+                  href="#"
+                  
+                  className='uppercase font-semibold'
+                >
+                  Узнать больше <span aria-hidden="true">→</span>
                 </Button>
               </div>
             </div>
