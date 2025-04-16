@@ -2,6 +2,7 @@ import { HOME_PAGE_QUERY } from '@/sanity/lib/queries';
 import { PageBuilder } from '@/components/PageBuilder';
 import { sanityFetch } from '@/sanity/lib/live';
 import { HeroSection } from '@/components/shared/hero';
+import { BrandSection } from '@/components/shared/brand';
 
 export default async function Home() {
   // const { data: page } = await sanityFetch({
@@ -13,10 +14,8 @@ export default async function Home() {
   // ) : null;
   return (
     <div className='relative'>
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[linear-gradient(45deg,#000000,#1a1a1a)] opacity-90" />
-      </div>
       <HeroSection />
+      <BrandSection />
     </div>
   )
 }

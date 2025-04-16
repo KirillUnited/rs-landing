@@ -68,7 +68,9 @@ export default function HeroSection() {
   return (
     <section className="relative">
       <div className="relative isolate overflow-hidden">
-        
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[linear-gradient(45deg,#000000,#1a1a1a)] opacity-90" />
+        </div>
         <div className="relative z-10">
           <div className="container py-24 sm:py-32">
             <div className="max-w-3xl">
@@ -78,13 +80,13 @@ export default function HeroSection() {
                   Технология Litech
                 </span>
               </h1>
-              
+
               <p className="text-gray-400 text-lg sm:text-xl mb-8 text-pretty">
-                Мы предлагаем профессиональное восстановление кожаных сидений, 
-                чтобы вернуть им первозданный вид. Наши эксперты используют 
+                Мы предлагаем профессиональное восстановление кожаных сидений,
+                чтобы вернуть им первозданный вид. Наши эксперты используют
                 только качественные материалы и современные технологии.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12">
                 <Button
                   as={Link}
@@ -94,7 +96,7 @@ export default function HeroSection() {
                 >
                   Узнать больше
                 </Button>
-                
+
                 <Button
                   as={Link}
                   href="/appointment"
@@ -108,7 +110,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="absolute right-0 top-0 -z-10 h-full w-1/2">
+        <div className="absolute right-0 top-0 h-full w-1/2">
           <Image
             src="/images/hero.png"
             alt="RS Remont Salona Logo"
