@@ -19,7 +19,7 @@ const config = {
       },
       colors: {
         primary: {
-          DEFAULT: "#84cc16",
+          DEFAULT: "#CEFF06",
           foreground: "#000000",
         },
         secondary: {
