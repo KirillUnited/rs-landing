@@ -67,7 +67,7 @@ export const ServiceSection = () => {
           <span className="inline-block px-4 py-1 border-1 border-primary rounded-full text-xs font-semibold self-center">
             Наши Услуги
           </span>
-          <h2 className="text-4xl font-bold text-foreground-900">Профессиональный Уход за Вашим Автомобилем</h2>
+          <h2 className="text-4xl font-bold text-foreground-900">Опытный уход за Вашим автомобилем</h2>
           <p className="text-foreground-600 max-w-2xl mx-auto">
             Испытайте новейшие технологии в обслуживании автомобилей с нашим спектром специализированных услуг
           </p>

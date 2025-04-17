@@ -112,7 +112,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="absolute right-0 top-0 h-full w-1/2">
+        <div className="hidden md:block absolute right-0 top-0 h-full w-1/2">
           <Image
             src="/images/hero.png"
             alt="RS Remont Salona Logo"
