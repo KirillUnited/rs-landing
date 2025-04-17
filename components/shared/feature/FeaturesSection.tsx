@@ -31,7 +31,7 @@ export const FeaturesSection: React.FC = () => (
                 <span className="inline-block px-4 py-1 border-1 border-primary rounded-full text-xs font-semibold self-center">
                     Почему выбирают нас
                 </span>
-                <h2 className="text-3xl md:text-4xl font-bold">Наши Услуги и Преимущества</h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Наши услуги и преимущества</h2>
             </div>
             <div className="flex flex-col lg:flex-row justify-center items-stretch gap-8">
                 {features.map((feature, idx) => (
