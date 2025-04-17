@@ -1,5 +1,7 @@
-import {ServiceSection, ServiceCard} from "./ServiceSection";
+import { ServiceSection } from "./ServiceSection";
+import { ServiceCard } from "./ServiceCard";
 
 export {
-    ServiceSection
+    ServiceSection,
+    ServiceCard
 }
