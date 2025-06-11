@@ -86,11 +86,11 @@ export function AboutSection() {
                         В автосалоне RS мы предоставляем первоклассные услуги по ремонту и детейлингу для автомобилей всех марок и моделей. Наши сертифицированные техники используют новейшие технологии, чтобы ваш автомобиль выглядел и работал наилучшим образом. Оцените прозрачное ценообразование, честные консультации и клиентоориентированный подход.
                     </p>
                     <footer className="mt-6 flex flex-col sm:flex-row gap-4">
-                        <Button color="primary" className="uppercase font-semibold">
+                        <Button radius="full" color="primary" className="uppercase font-semibold">
                             <CalendarIcon size={18} />
                             <span>Записаться на приём</span>
                         </Button>
-                        <Button className="uppercase font-semibold">
+                        <Button radius="full" className="uppercase font-semibold">
                             Наши услуги <span aria-hidden="true">→</span>
                         </Button>
                     </footer>

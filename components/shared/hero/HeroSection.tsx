@@ -75,9 +75,9 @@ export default function HeroSection() {
         <div className="relative z-10">
           <div className="container py-24 sm:py-32">
             <article className="max-w-3xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-6 text-pretty">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-medium text-white mb-6 text-pretty">
                 Восстановление кожаных сидений для вашего автомобиля.
-                <span className="block mt-2 bg-gradient-to-r from-[#ceff06] to-[#49f866] bg-clip-text text-transparent">
+                <span className="block mt-2 bg-gradient-to-r from-[#ceff06] to-[#49f866] bg-clip-text text-transparent font-bold">
                   Технология Litech
                 </span>
               </h1>
@@ -93,6 +93,7 @@ export default function HeroSection() {
                   as={Link}
                   href="#"
                   color='primary'
+                  radius='full'
                   className='uppercase font-semibold'
                 >
                   <CalendarIcon size={18} />
@@ -102,7 +103,7 @@ export default function HeroSection() {
                 <Button
                   as={Link}
                   href="#"
-                  
+                  radius='full'
                   className='uppercase font-semibold'
                 >
                   Узнать больше <span aria-hidden="true">→</span>
