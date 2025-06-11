@@ -13,6 +13,7 @@ import { DisableDraftMode } from "@/components/DisableDraftMode";
 import { Navbar } from "@/components/navbar";
 import { SanityLive } from "@/sanity/lib/live";
 import Footer from "@/components/footer";
+import { urlFor } from "@/sanity/lib/image";
 
 export const metadata: Metadata = {
   title: {
@@ -22,6 +23,21 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: {
     icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: '',
+    siteName: '',
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/android-chrome-512x512.png`,
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "ru-RU",
+    type: "website",
   },
 };
 
