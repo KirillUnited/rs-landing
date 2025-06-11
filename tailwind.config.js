@@ -17,16 +17,16 @@ const config = {
         sans: ["var(--font-sans)"],
         mono: ["var(--font-mono)"],
       },
-      colors: {
-        primary: {
-          DEFAULT: "#CEFF06",
-          foreground: "#000000",
-        },
-        secondary: {
-          DEFAULT: "#FCFBFC",
-          foreground: "#000000",
-        },
-      },
+      // colors: {
+      //   primary: {
+      //     DEFAULT: "var(--color-primary)",
+      //     foreground: "var(--color-primary-foreground)",
+      //   },
+      //   secondary: {
+      //     DEFAULT: "var(--color-secondary)",
+      //     foreground: "var(--color-secondary-foreground)",
+      //   },
+      // },
     },
   },
   darkMode: "class",

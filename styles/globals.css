@@ -4,7 +4,11 @@
 
 
 @layer base {
-html {
-    scroll-behavior: smooth;
-}
+    :root {
+        --color-primary: hsl(45, 57%, 41%);
+        --color-primary-foreground: hsl(0, 0%, 98%);
+    }
+    html {
+        scroll-behavior: smooth;
+    }
 }
